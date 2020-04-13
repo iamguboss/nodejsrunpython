@@ -1,0 +1,159 @@
+body{
+	font-family: 'Kanit', sans-serif;
+	font-size: 16px;
+	color: #737373;
+	background-color: #ffffff;
+	line-height: normal;
+	background: rgb(234,234,234);
+	background: linear-gradient(180deg, rgba(234,234,234,1) 0%, rgba(255,255,255,1) 50%, rgba(234,234,234,1) 100%);
+	height: 100vh;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	align-content: space-between;
+	justify-content: center;
+	overflow: hidden;
+}
+body>div{
+	width: 100%;
+}
+/* Header Start	*/
+
+.b-logo-main{
+	z-index: 1;
+}
+	.logo{
+		margin: 15px auto;
+		display: table;
+	}
+		.logo img{
+			width: 300px;
+			height: auto;
+		}
+
+/* Header End  */
+
+/* Content Start	*/
+.b-content {
+	z-index: 1;
+}
+.b-tab-main .tab{
+	display: flex;
+	justify-content: space-between;
+}	
+	.b-tab-main .tab .btn-tab{
+		width: 50%;
+	    text-transform: uppercase;
+	    font-weight: 600;
+	    font-size: 46px;
+	    color: #C7C7C7;
+	    text-align: center;
+	    border-bottom: 5px solid #E1E2E2;
+        padding: 10px;
+	}
+	.b-tab-main .tab .btn-tab.active{
+	    color: #5C5768;
+	    border-color: #C7342A;
+	}
+.b-btn-main .b-btn{
+	display: flex;
+	justify-content: space-around;
+	margin: 16vh auto;
+
+}	
+	body.manual .b-btn-main .b-btn{
+
+	}
+	.b-btn-main .b-btn a{
+	    display: table;
+	    width: 140px;
+	    height: 87px;
+	    padding: 0 15px;
+	    text-transform: uppercase;
+	    font-weight: 600;
+	    font-size: 28px;
+	    color: #C7342A;
+	    text-align: center;
+	    border: 3px solid #5C5768;
+	    line-height: 28px;
+	    border-radius: 10px;
+		-webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, .3);
+		-moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, .3);
+		box-shadow: 0px 0px 10px rgba(0, 0, 0, .3);
+		background-color: #ffffff;
+	}
+		body.manual .b-btn-main .b-btn a{
+			width: 230px;
+		}
+	.b-btn-main .b-btn a div{
+		display: table-cell;
+		vertical-align: middle;
+	}
+	.b-btn-main .b-btn a.home{
+	    color: #ffffff;
+	    border-color: #C7342A;
+	    background-color: #5C5768;
+	}
+/* Content End  */
+
+/* Footer Start	*/
+.b-credit-main{
+}
+	.credit{
+		margin: 17px;
+		z-index: 1;
+	}
+		.credit img{
+			width: 200px;
+			height: auto;
+		}
+.b-credit-main:after{
+	text-transform: uppercase;
+    font-weight: 600;
+    text-align: right;
+    line-height: 77px;
+    color: #E6E6E6;
+    font-size: 107px;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    z-index: 0;
+}
+body.auto .b-credit-main:after{
+	content:'auto';
+}
+body.manual .b-credit-main:after{
+	content:'manual';
+}
+/* Footer End  */
+
+	
+/* ---------------------------------------------------**** Tablet Portrait ****--------------------------------------------------- */
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+
+
+}
+
+
+
+
+
+/* ---------------------------------------------------**** Mobile ****--------------------------------------------------- */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

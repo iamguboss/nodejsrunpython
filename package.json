@@ -21,7 +21,7 @@
     "koa-static": "^5.0.0",
     "koa-views": "^6.2.0",
     "python-shell": "^1.0.8",
-    "shelljs": "^0.8.3"
+    "shelljs": "^0.8.5"
   },
   "devDependencies": {
     "nodemon": "^1.19.1"
